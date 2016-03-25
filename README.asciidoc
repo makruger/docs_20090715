@@ -8,21 +8,82 @@
 
 = OpenSolaris PDL Licensed DOCS - 2009.07.15
 
-< Place Holder for some history about these books >
+Consisting of 41 titles and originally published on July 15th, 2009, this collection of books is the final docs release of the OpenSolaris project.
+The titles have been re-ordered by subject matter and grouped according to their intended target audience.
+Otherwise, the books are exactly as originally published.
+No editing of any kind has been performed on any of the titles.
+This documentation collection has been released under the https://www.openoffice.org/licenses/PDL.html[Public Documentation License (PDL)].
 
-* Lots of broken links to the old OpenSolaris.org website, Sun Microsystems, and Oracle.
-* Significant divergence between OpenSolaris 2009.06 and OpenIndiana Hipster 2015.10
-* Docs are open source licensed using the Public Documentation Licence (PDL).
+
+[NOTE]
+====
+When using these books, please bear in mind:
+
+* There are lots of broken links to the old OpenSolaris.org website, Sun Microsystems, and Oracle.
+* Significant divergence has occured between OpenSolaris 2009.06 and OpenIndiana Hipster 2015.10.03
+* The OpenSolaris Developer's Reference Guide was never released as part of this collection.
+* The OpenIndiana Project has republished these books for reference use only.
+====
 
 
 
-== Introductory
+.Titles Updated by the illumos Project
+Many of the development related titles have since been updated by the illumos project.
+The illumos updated titles can be found here: https://illumos.org/books/
+
+.The OpenIndiana Project's Documentation Update Effort
+An effort currently exists within the OpenIndiana community to review these titles for updating.
+If you wish to participate in this effort, please indicate your interest in one or more of the following ways:
+
+
+|===
+| Resource | URL
+
+| User Support IRC channel
+| irc://irc.freenode.net/openindiana[#openindiana on irc.freenode.net]
+
+| Development IRC channel
+| irc://irc.freenode.net/oi-dev[#oi-dev on irc.freenode.net]
+
+| Documentation IRC channel
+| irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]
+
+| OpenIndiana Mailing Lists
+| http://openindiana.org/mailman
+|===
+
+
+== Basic Systems Administration
 
 
 === link:./20090715/getstart/html/solarisinstall.html[Getting Started With OpenSolaris]
 
 The guide provides an introduction to the OpenSolaris™ operating system, as well as instructions for installing the current OpenSolaris release on your system.
 This guide is intended to help you install and set up the free binary distribution of the OpenSolaris software and make your initial experience with it a successful one.
+
+
+=== link:./20090715/SYSADV1/html/sysadv1.html[System Administration Guide: Basic Administration]
+
+.Topics
+
+* User accounts and groups
+* Server and client support
+* Shutting down and booting a system
+* Managing services
+* Managing software (packages and patches)
+
+.Target Audience
+
+This book is intended for anyone responsible for administering one or more systems running the Solaris release.
+
+.Requirements
+
+This book assumes you have installed the Solaris Express Operating System and set up all the networking software that you plan to use.
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
+
+
+== Intermediate & Advanced Systems Administration
 
 
 === link:./20090715/snapupgrade/html/solarisinstall.html[OpenSolaris Managing Boot Environments]
@@ -37,8 +98,20 @@ The Image Packaging System, pkg(5), is a framework that provides for software li
 IPS also provides users the ability to create their own software packages, create and manage packaging repositories, and mirror existing packaging repositories.
 
 
+=== link:./20090715/SSMBAG/html/ssmbag.html[Solaris CIFS Administration Guide]
 
-== Systems Administration
+The Solaris CIFS Administration Guide describes the Solaris™ Common Internet File System (CIFS) service.
+This book is intended for system administrators and end users.
+Both Solaris Operating System (Solaris OS) and Windows system administrators can use this information to configure and integrate the Solaris CIFS service into a Windows environment.
+In addition, system administrators can configure the identity mapping service.
+Finally, the chapter about the Solaris CIFS client is primarily intended for Solaris users who would like to mount CIFS shares.
+The Solaris CIFS client chapter also includes tasks to be performed by a system administrator.
+
+
+=== link:./20090715/ZFSADMIN/html/zfsadmin.html[Solaris ZFS Administration Guide]
+
+This guide is intended for anyone who is interested in setting up and managing Solaris ZFS file systems.
+Experience using the Solaris Operating System (OS) or another UNIX® version is recommended.
 
 
 === link:./20090715/AIinstall/html/solarisinstall.html[OpenSolaris Automated Installer Guide]
@@ -46,6 +119,147 @@ IPS also provides users the ability to create their own software packages, creat
 If you want to install the OpenSolaris operating system (OS) on multiple client systems on a network, you can use the automated installer (AI) to accomplish that task.
 The automated installer performs essentially “hands-free” network installations of the OpenSolaris OS.
 You can install the OpenSolaris OS onto x86 systems or SPARC systems in a network.
+
+
+=== link:./20090715/SYSADV2/html/sysadv2.html[System Administration Guide: Advanced Administration]
+
+.Topics
+
+* Terminals and modems
+* System resources (disk quotas, accounting, and crontabs)
+* System processes
+* Troubleshooting Solaris software problems
+
+.Target Audience
+
+This book is intended for anyone responsible for administering one or more systems that are running the Solaris release.
+
+.Requirements
+
+This book assumes that you have installed the SunOS™ Solaris Operating System.
+It also assumes that you have set up any networking software that you plan to use.
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
+
+
+=== link:./20090715/SAGDFS/html/sagdfs.html[System Administration Guide: Devices and File Systems]
+
+.Topics
+
+* Removable media
+* Disks and devices
+* File systems
+* Backing up and restoring data
+
+.Target Audience
+
+This book is intended for anyone responsible for administering one or more systems running the Solaris release.
+
+.Requirements
+
+This book assumes you have installed the SunOS 5.11 Operating System and set up all the networking software that you plan to use.
+To use this book, you should have 1–2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
+
+
+=== link:./20090715/SYSADV3/html/sysadv3.html[System Administration Guide: IP Services]
+
+.Topics
+
+* TCP/IP network administration
+* IPv4 and IPv6 address administration
+* DHCP
+* IPsec
+* IKE
+* Solaris IP filter
+* Mobile IP
+* IP network multipathing (IPMP)
+* IPQoS
+
+.Target Audience
+
+This book is intended for anyone responsible for administering systems that run the Solaris OS release, which are configured in a network.
+
+.Requirements
+
+This book assumes that you have already installed the Solaris operating system (Solaris OS).
+You should be ready to configure your network or ready to configure any networking software that is required on your network.
+To use this book, you should have at least two years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
+
+
+=== link:./20090715/SYSADV4/html/sysadv4.html[System Administration Guide: Network Services]
+
+.Topics
+
+* Web cache servers
+* Time-related services
+* Network file systems (NFS and Autofs)
+* Mail
+* SLP
+* PPP
+
+.Target Audience
+
+This book is intended for anyone responsible for administering one or more systems that run the Solaris 10 release.
+
+.Requirements
+
+This book assumes that you have already installed the SunOSTM 5.10 operating system, and you have set up any networking software that you plan to use.
+To use this book, you should have one to two years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
+
+
+=== link:./20090715/SYSADV5/html/sysadv5.html[System Administration Guide: Naming and Directory Services (DNS, NIS, and LDAP)]
+
+.Topics
+
+* DNS
+* NIS
+* LDAP (including transitioning from NIS to LDAP and transitioning from NIS+ to LDAP)
+
+.Target Audience
+
+This manual is written for experienced system and network administrators.
+
+.Requirements
+
+Although this book introduces networking concepts relevant to Solaris naming and directory services, it explains neither the networking fundamentals nor the administration tools in the Solaris OS.
+To use this book, you should have a firm understanding of UNIX® networking and systems administration fundamentals.
+
+
+=== link:./20090715/SYSADPRTSVCS/html/sysadprtsvcs.html[System Administration Guide: Solaris Printing]
+
+System Administration Guide: Solaris Printing is part of a set that covers a significant part of the Solaris™ system administration information.
+
+This guide includes information for both SPARC® and x86 based systems.
+
+
+=== link:./20090715/SYSADV6/html/sysadv6.html[System Administration Guide: Security Services]
+
+This book is intended for anyone who is responsible for administering one or more systems that run a Solaris Express Community Edition release.
+
+To use this book, you should have more than two years of UNIX® system administration experience.
+Attending training courses in UNIX system administration might be helpful.
+
+
+
+==== link:./20090715/LOGVOLMGRADMIN/html/logvolmgradmin.html[Solaris Volume Manager Administration Guide]
+
+The Solaris Volume Manager Administration Guide explains how to use Solaris™ Volume Manager to manage your system's storage needs.
+Solaris Volume Manager enables you to create, modify, and use RAID-0 (concatenation and stripe) volumes, RAID-1 (mirror) volumes.
+
+System and storage administrators can use this book to identify:
+
+* Tasks supported by Solaris Volume Manager
+* Ways to use Solaris Volume Manager to provide more reliable and accessible data
+
+
+=== link:./20090715/SYSADRM/html/sysadrm.html[System Administration Guide: Virtualization Using the Solaris Operating System]
+
+System Administration Guide: Virtualization Using the Solaris Operating System is part of a multivolume set that covers a significant part of the Solaris™ Operating System administration information.
+
+This book assumes that you have already installed the operating system and set up any networking software that you plan to use.
 
 
 === link:./20090715/LOGVOLMGRADMIN/html/logvolmgradmin.html[Solaris Volume Manager Administration Guide]
@@ -59,102 +273,104 @@ System and storage administrators can use this book to identify:
 * Ways to use Solaris Volume Manager to provide more reliable and accessible data
 
 
-=== link:./20090715/SAGDFS/html/sagdfs.html[System Administration Guide: Devices and File Systems]
+=== link:./20090715/SOLTUNEPARAMREF/html/soltuneparamref.html[Solaris Tunable Parameters Reference Manual]
 
-This book is intended for anyone responsible for administering one or more systems running the Solaris release.
-To use this book, you should have 1–2 years of UNIX® system administration experience.
-Attending UNIX system administration training courses might be helpful.
+The Solaris Tunable Parameters Reference Manual provides reference information about Solaris™ OS kernel and network tunable parameters.
+This manual does not provide tunable parameter information about the CDE, GNOME, or Java™ environments.
 
-
-=== link:./20090715/SYSADPRTSVCS/html/sysadprtsvcs.html[System Administration Guide: Solaris Printing]
-
-System Administration Guide: Solaris Printing is part of a set that covers a significant part of the Solaris™ system administration information.
-
-This guide includes information for both SPARC® and x86 based systems.
-
-
-=== link:./20090715/SYSADRM/html/sysadrm.html[System Administration Guide: Virtualization Using the Solaris Operating System]
-
-System Administration Guide: Virtualization Using the Solaris Operating System is part of a multivolume set that covers a significant part of the Solaris™ Operating System administration information.
-
-This book assumes that you have already installed the operating system and set up any networking software that you plan to use.
-
-
-=== link:./20090715/SYSADV1/html/sysadv1.html[System Administration Guide: Basic Administration]
-
-System Administration Guide: Basic Administration is part of a set that includes a significant part of the Solaris™ system administration information.
-This guide contains information for both SPARC® based and x86 based systems.
-
-This book assumes you have completed the following tasks:
-
-* Installed the Solaris Express Operating System
-* Set up all the networking software that you plan to use
-
-For the Solaris release, new features that might be interesting to system administrators are covered in sections called What's New in ... ? in the appropriate chapters.
-
-=== link:./20090715/SYSADV2/html/sysadv2.html[System Administration Guide: Advanced Administration]
-
-This book is intended for anyone responsible for administering one or more systems that are running the Solaris release.
-
-To use this book, you should have 1-2 years of UNIX® system administration experience.
-Attending UNIX system administration training courses might be helpful.
-
-
-=== link:./20090715/SYSADV3/html/sysadv3.html[System Administration Guide: IP Services]
-
-This book is intended for anyone responsible for administering systems that run the Solaris OS release, which are configured in a network.
-
-To use this book, you should have at least two years of UNIX® system administration experience.
-Attending UNIX system administration training courses might be helpful.
-
-
-=== link:./20090715/SYSADV4/html/sysadv4.html[System Administration Guide: Network Services]
-
-This book is intended for anyone responsible for administering one or more systems that run the Solaris 10 release.
-
-To use this book, you should have one to two years of UNIX® system administration experience.
-Attending UNIX system administration training courses might be helpful.
-
-
-=== link:./20090715/SYSADV5/html/sysadv5.html[System Administration Guide: Naming and Directory Services (DNS, NIS, and LDAP)]
-
-This manual is written for experienced system and network administrators.
-
-Although this book introduces networking concepts relevant to Solaris naming and directory services, it explains neither the networking fundamentals nor the administration tools in the Solaris OS.
-
-=== link:./20090715/SYSADV6/html/sysadv6.html[System Administration Guide: Security Services]
-
-This book is intended for anyone who is responsible for administering one or more systems that run a Solaris Express Community Edition release.
-
-To use this book, you should have more than two years of UNIX® system administration experience.
-Attending training courses in UNIX system administration might be helpful.
-
-
-=== link:./20090715/SSMBAG/html/ssmbag.html[Solaris CIFS Administration Guide]
-
-The Solaris CIFS Administration Guide describes the Solaris™ Common Internet File System (CIFS) service.
-This book is intended for system administrators and end users.
-Both Solaris Operating System (Solaris OS) and Windows system administrators can use this information to configure and integrate the Solaris CIFS service into a Windows environment.
-In addition, system administrators can configure the identity mapping service.
-Finally, the chapter about the Solaris CIFS client is primarily intended for Solaris users who would like to mount CIFS shares.
-The Solaris CIFS client chapter also includes tasks to be performed by a system administrator.
-
-=== link:./20090715/ZFSADMIN/html/zfsadmin.html[Solaris ZFS Administration Guide]
-
-This guide is intended for anyone who is interested in setting up and managing Solaris ZFS file systems.
-Experience using the Solaris Operating System (OS) or another UNIX® version is recommended.
+This manual contains information for both SPARC® based and x86 based systems.
 
 
 
-== Advanced Systems Administration
+== Solaris Express Systems Administration
 
 
-=== link:./20090715/DYNMCTRCGGD/html/dynmctrcggd.html[Solaris Dynamic Tracing Guide]
+=== link:./20090715/SOLWHATSNEW/html/solwhatsnew.html[Solaris Express Developer Edition What's New]
 
-DTrace is a comprehensive dynamic tracing framework for the Solaris™ Operating System.
-DTrace provides a powerful infrastructure to permit administrators, developers, and service personnel to concisely answer arbitrary questions about the behavior of the operating system and user programs.
-The Solaris Dynamic Tracing Guide describes how to use DTrace to observe, debug, and tune system behavior.
-This book also includes a complete reference for bundled DTrace observability tools and the D programming language.
+Solaris Express Developer Edition What's New summarizes all features in the most current Software Express release.
+
+
+=== link:./20090715/SOLDEVERN/html/soldevern.html[Solaris Express Developer Edition Release Notes]
+
+The Solaris Express Developer Edition Release Notes contains installation and runtime problem details.
+Also included are end-of-software support statements for the Solaris™ Operating System (Solaris OS).
+
+
+=== link:./20090715/SOLINSTALLPBIU/html/solinstallpbiu.html[Solaris Express Installation Guide: Planning for Installation and Upgrade]
+
+This book describes planning your installation or upgrade with the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
+This book also provides overviews of several technologies that relate to installation such as Solaris Zones, GRUB based booting, and the creation of RAID-1 volumes during installation.
+
+This book does not include instructions about how to set up system hardware or other peripherals.
+
+
+=== link:./20090715/SOLARISINSTALL/html/solarisinstall.html[Solaris Express Installation Guide: Basic Installations]
+
+This book describes how to use CD or DVD media to install the Solaris™ Operating System (Solaris OS) on a non-networked system.
+
+This book does not include instructions about how to set up system hardware or other peripherals.
+
+
+=== link:./20090715/SOLDEVELINSTALL/html/soldevelinstall.html[Solaris Express Developer Edition Installation Guide: Laptop Installations]
+
+This book provides general guidance for installing the Solaris Express Developer Edition on a laptop computer.
+
+
+=== link:./20090715/SOLINSTALLNET/html/solinstallnet.html[Solaris Express Installation Guide: Network-Based Installations]
+
+This book describes how to install the Solaris™ Operating System (Solaris OS) remotely over a local area network or a wide area network.
+
+This book does not include instructions about how to set up system hardware or other peripherals.
+
+
+=== link:./20090715/SOLINSTALLFLASH/html/solinstallflash.html[Solaris Express Installation Guide: Solaris Flash Archives (Creation and Installation)]
+
+This book provides planning information and instructions for creating Solaris™ Flash archives and using Solaris Flash archives to install the Solaris Operating System (OS) on multiple systems.
+
+This book does not include instructions about how to set up system hardware or other peripherals.
+
+
+=== link:./20090715/SOLINSTALLUPG/html/solinstallupg.html[Solaris Express Installation Guide: Solaris Live Upgrade and Upgrade Planning]
+
+This book describes how to install and upgrade the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
+
+This book does not include instructions about how to set up system hardware or other peripherals.
+
+
+
+=== link:./20090715/SOLINSTALLADV/html/solinstalladv.html[Solaris Express Installation Guide: Custom JumpStart and Advanced Installations]
+
+This book describes how to install and upgrade the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
+This book covers using the custom JumpStart installation method and the creation of RAID-1 volumes during installation.
+
+This book does not include instructions about how to set up system hardware or other peripherals.
+
+
+=== link:./20090715/INSTALLPKGLIST/html/installpkglist.html[Solaris Express Package List]
+
+The Solaris Express Package List lists and describes the packages included in the Solaris™ Express Operating System (Solaris OS).
+The list includes information about the software groups that contain each package.
+
+
+== Trusted Extensions Systems Administration
+
+
+=== link:./20090715/TRSOLINSTALL/html/trsolinstall.html[Solaris Trusted Extensions Installation and Configuration]
+
+This book is for knowledgeable system administrators and security administrators who are installing Trusted Extensions software.
+The level of trust that is required by your site security policy, and your level of expertise, determines who can perform the configuration tasks.
+
+
+=== link:./20090715/TRSSUG/html/trssug.html[Solaris Trusted Extensions User's Guide]
+
+This book is for all users of Trusted Extensions.
+As a prerequisite, you must be familiar with the Solaris OS and one of the following desktops:
+
+* Common Desktop Environment (CDE)
+* The open source GNOME desktop
+* Sun Java™ Desktop System
+
+You must also be familiar with the security policy of your organization.
 
 
 === link:./20090715/TRSOLADMPROC/html/trsoladmproc.html[Solaris Trusted Extensions Administrator's Procedures]
@@ -168,12 +384,6 @@ In addition, administrators should understand the following:
 * The security features of Trusted Extensions and your site security policy
 * Basic concepts and procedures for using a host that is configured with Trusted Extensions, as described in the Solaris Trusted Extensions User’s Guide
 * How administrative tasks are divided among roles at your site
-
-
-=== link:./20090715/TRSOLINSTALL/html/trsolinstall.html[Solaris Trusted Extensions Installation and Configuration]
-
-This book is for knowledgeable system administrators and security administrators who are installing Trusted Extensions software.
-The level of trust that is required by your site security policy, and your level of expertise, determines who can perform the configuration tasks.
 
 
 === link:./20090715/TRSOLLBLADMIN/html/trsollbladmin.html[Solaris Trusted Extensions Label Administration]
@@ -191,116 +401,15 @@ The Solaris Trusted Extensions Transition Guide is designed for users who are fa
 This book enables these users to more easily use systems that are configured with Solaris Trusted Extensions.
 
 
-=== link:./20090715/TRSSUG/html/trssug.html[Solaris Trusted Extensions User's Guide]
-
-This book is for all users of Trusted Extensions.
-As a prerequisite, you must be familiar with the Solaris OS and one of the following desktops:
-
-* Common Desktop Environment (CDE)
-* The open source GNOME desktop
-* Sun Java™ Desktop System
-
-You must also be familiar with the security policy of your organization.
-
-
-=== link:./20090715/SOLTUNEPARAMREF/html/soltuneparamref.html[Solaris Tunable Parameters Reference Manual]
-
-The Solaris Tunable Parameters Reference Manual provides reference information about Solaris™ OS kernel and network tunable parameters.
-This manual does not provide tunable parameter information about the CDE, GNOME, or Java™ environments.
-
-This manual contains information for both SPARC® based and x86 based systems.
-
-
-
-== Solaris Express Systems Administration
-
-
-=== link:./20090715/INSTALLPKGLIST/html/installpkglist.html[Solaris Express Package List]
-
-The Solaris Express Package List lists and describes the packages included in the Solaris™ Express Operating System (Solaris OS).
-The list includes information about the software groups that contain each package.
-
-
-=== link:./20090715/SOLARISINSTALL/html/solarisinstall.html[Solaris Express Installation Guide: Basic Installations]
-
-This book describes how to use CD or DVD media to install the Solaris™ Operating System (Solaris OS) on a non-networked system.
-
-This book does not include instructions about how to set up system hardware or other peripherals.
-
-
-=== link:./20090715/SOLWHATSNEW/html/solwhatsnew.html[Solaris Express Developer Edition What's New]
-
-Solaris Express Developer Edition What's New summarizes all features in the most current Software Express release.
-
-
-=== link:./20090715/SOLDEVELINSTALL/html/soldevelinstall.html[Solaris Express Developer Edition Installation Guide: Laptop Installations]
-
-This book provides general guidance for installing the Solaris Express Developer Edition on a laptop computer.
-
-
-=== link:./20090715/SOLDEVERN/html/soldevern.html[Solaris Express Developer Edition Release Notes]
-
-The Solaris Express Developer Edition Release Notes contains installation and runtime problem details.
-Also included are end-of-software support statements for the Solaris™ Operating System (Solaris OS).
-
-
-=== link:./20090715/SOLINSTALLADV/html/solinstalladv.html[Solaris Express Installation Guide: Custom JumpStart and Advanced Installations]
-
-This book describes how to install and upgrade the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
-This book covers using the custom JumpStart installation method and the creation of RAID-1 volumes during installation.
-
-This book does not include instructions about how to set up system hardware or other peripherals.
-
-
-=== link:./20090715/SOLINSTALLFLASH/html/solinstallflash.html[Solaris Express Installation Guide: Solaris Flash Archives (Creation and Installation)]
-
-This book provides planning information and instructions for creating Solaris™ Flash archives and using Solaris Flash archives to install the Solaris Operating System (OS) on multiple systems.
-
-This book does not include instructions about how to set up system hardware or other peripherals.
-
-
-=== link:./20090715/SOLINSTALLNET/html/solinstallnet.html[Solaris Express Installation Guide: Network-Based Installations]
-
-This book describes how to install the Solaris™ Operating System (Solaris OS) remotely over a local area network or a wide area network.
-
-This book does not include instructions about how to set up system hardware or other peripherals.
-
-
-=== link:./20090715/SOLINSTALLPBIU/html/solinstallpbiu.html[Solaris Express Installation Guide: Planning for Installation and Upgrade]
-
-This book describes planning your installation or upgrade with the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
-This book also provides overviews of several technologies that relate to installation such as Solaris Zones, GRUB based booting, and the creation of RAID-1 volumes during installation.
-
-This book does not include instructions about how to set up system hardware or other peripherals.
-
-
-=== link:./20090715/SOLINSTALLUPG/html/solinstallupg.html[Solaris Express Installation Guide: Solaris Live Upgrade and Upgrade Planning]
-
-This book describes how to install and upgrade the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
-
-This book does not include instructions about how to set up system hardware or other peripherals.
-
-
-
 == Development
 
 
-=== link:./20090715/DistroConst/html/distroconst.html[OpenSolaris Distribution Constructor Guide]
+=== link:./20090715/DYNMCTRCGGD/html/dynmctrcggd.html[Solaris Dynamic Tracing Guide]
 
-The distribution constructor is a tool that application developers can use to build their own custom OpenSolaris™ image which they can then distribute to their contacts and customers.
-
-
-=== link:./20090715/DRIVER/html/driver.html[Writing Device Drivers]
-
-This book is written for UNIX® programmers who are familiar with UNIX device drivers.
-Overview information is provided, but the book is not intended to serve as a general tutorial on device drivers.
-
-
-=== link:./20090715/DRIVERTUT/html/drivertut.html[Device Driver Tutorial]
-
-You should read this tutorial if you need to develop, install, and configure device drivers for the Solaris OS.
-You also should read this book if you need to maintain existing drivers or add new functionality to existing Solaris OS drivers.
-Information about the kernel provided in this book also will help you troubleshoot any problems you might encounter installing or configuring Solaris systems.
+DTrace is a comprehensive dynamic tracing framework for the Solaris™ Operating System.
+DTrace provides a powerful infrastructure to permit administrators, developers, and service personnel to concisely answer arbitrary questions about the behavior of the operating system and user programs.
+The Solaris Dynamic Tracing Guide describes how to use DTrace to observe, debug, and tune system behavior.
+This book also includes a complete reference for bundled DTrace observability tools and the D programming language.
 
 
 === link:./20090715/MODDEBUG/html/moddebug.html[Solaris Modular Debugger Guide]
@@ -315,10 +424,17 @@ The MDB debugging framework allows you to construct your own custom analysis too
 MDB also provides a powerful set of built-in commands that enable you to analyze the state of your program at the assembly language level.
 
 
-=== link:./20090715/MTPODG/html/mtpodg.html[Memory and Thread Placement Optimization Developer's Guide]
+=== link:./20090715/DRIVERTUT/html/drivertut.html[Device Driver Tutorial]
 
-This book is intended for use by developers who are writing applications in an environment with multiple CPUs and a non-uniform memory architecture.
-The programming interfaces and tools that are described in this book give the developer control over the system's behavior and resource allocation.
+You should read this tutorial if you need to develop, install, and configure device drivers for the Solaris OS.
+You also should read this book if you need to maintain existing drivers or add new functionality to existing Solaris OS drivers.
+Information about the kernel provided in this book also will help you troubleshoot any problems you might encounter installing or configuring Solaris systems.
+
+
+=== link:./20090715/DRIVER/html/driver.html[Writing Device Drivers]
+
+This book is written for UNIX® programmers who are familiar with UNIX device drivers.
+Overview information is provided, but the book is not intended to serve as a general tutorial on device drivers.
 
 
 === link:./20090715/PACKINSTALL/html/packinstall.html[Application Packaging Developer's Guide]
@@ -326,6 +442,17 @@ The programming interfaces and tools that are described in this book give the de
 This book is intended for application developers whose responsibilities include designing and building packages.
 
 Though much of the book is directed towards novice package developers, it also contains information useful to more experienced package developers.
+
+
+=== link:./20090715/DistroConst/html/distroconst.html[OpenSolaris Distribution Constructor Guide]
+
+The distribution constructor is a tool that application developers can use to build their own custom OpenSolaris™ image which they can then distribute to their contacts and customers.
+
+
+=== link:./20090715/MTPODG/html/mtpodg.html[Memory and Thread Placement Optimization Developer's Guide]
+
+This book is intended for use by developers who are writing applications in an environment with multiple CPUs and a non-uniform memory architecture.
+The programming interfaces and tools that are described in this book give the developer control over the system's behavior and resource allocation.
 
 
 === link:./20090715/RSCMGRDEVGD/html/rscmgrdevgd.html[Solaris Containers: Resource Management and Solaris Zones Developer's Guide]
