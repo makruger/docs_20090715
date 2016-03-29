@@ -25,6 +25,7 @@ When using these books, please bear in mind:
 * Some of the books in this collection reference publications which were either never opensourced by Sun Microsystems or never released by the OpenSolaris Project.
   For example, the _OpenSolaris Developer's Reference Guide_ was never released as part of this collection.
 * There are lots of broken links to OpenSolaris.org and Sun Microsystems.
+* In some cases, it may be possible to follow broken links by using the https://archive.org/web/[Internet Archive Wayback Machine].
 ====
 
 .Titles Updated by the illumos Project
@@ -62,7 +63,7 @@ If you wish to participate in this effort, please indicate your interest in one 
 link:./20090715/getstart/html/solarisinstall.html[Getting Started With OpenSolaris]
 
 .Topics
-
+Provides general guidance for installing the OpenSolaris 2009.06 operating system.
 
 .Target Audience
 
@@ -409,13 +410,15 @@ Attending training courses in UNIX system administration might be helpful.
 link:./20090715/SOLWHATSNEW/html/solwhatsnew.html[Solaris Express Developer Edition What's New]
 
 .Topics
+Solaris Express Developer Edition What's New summarizes all features in the most current Software Express release.
 
 .Target Audience
+This book provides introductory descriptions of the new Software Express features for users, developers, and system administrators.
 
 .Requirements
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
-
-Solaris Express Developer Edition What's New summarizes all features in the most current Software Express release.
 
 
 === Solaris Express Developer Edition Release Notes
@@ -424,13 +427,15 @@ Solaris Express Developer Edition What's New summarizes all features in the most
 link:./20090715/SOLDEVERN/html/soldevern.html[Solaris Express Developer Edition Release Notes]
 
 .Topics
+The Solaris Express Developer Edition Release Notes contains installation and runtime problem details.
+Also included are end-of-software support statements for the SolarisTM Operating System (Solaris OS).
 
 .Target Audience
+These notes are for users and system administrators who install and use the Solaris Operating System.
 
 .Requirements
-
-The Solaris Express Developer Edition Release Notes contains installation and runtime problem details.
-Also included are end-of-software support statements for the Solaris™ Operating System (Solaris OS).
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 === Solaris Express Installation Guide: Planning for Installation and Upgrade
@@ -439,15 +444,22 @@ Also included are end-of-software support statements for the Solaris™ Operatin
 link:./20090715/SOLINSTALLPBIU/html/solinstallpbiu.html[Solaris Express Installation Guide: Planning for Installation and Upgrade]
 
 .Topics
-
-.Target Audience
-
-.Requirements
-
 This book describes planning your installation or upgrade with the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
 This book also provides overviews of several technologies that relate to installation such as Solaris Zones, GRUB based booting, and the creation of RAID-1 volumes during installation.
 
 This book does not include instructions about how to set up system hardware or other peripherals.
+
+.Target Audience
+This book is intended for system administrators responsible for installing the Solaris OS.
+This book provides both of the following types of information.
+
+* Advanced Solaris installation planning information for enterprise system administrators who manage multiple Solaris machines in a networked environment
+* Basic Solaris installation planning information for system administrators who perform infrequent Solaris installations or upgrades
+
+.Requirements
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
+
 
 
 === Solaris Express Installation Guide: Basic Installations
@@ -456,14 +468,17 @@ This book does not include instructions about how to set up system hardware or o
 link:./20090715/SOLARISINSTALL/html/solarisinstall.html[Solaris Express Installation Guide: Basic Installations]
 
 .Topics
-
-.Target Audience
-
-.Requirements
-
 This book describes how to use CD or DVD media to install the Solaris™ Operating System (Solaris OS) on a non-networked system.
 
 This book does not include instructions about how to set up system hardware or other peripherals.
+
+.Target Audience
+This book is intended for system administrators who are responsible for installing the Solaris OS.
+This book provides basic Solaris installation information for system administrators who perform infrequent Solaris installations or upgrades.
+
+.Requirements
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 === Solaris Express Developer Edition Installation Guide: Laptop Installations
@@ -472,12 +487,14 @@ This book does not include instructions about how to set up system hardware or o
 link:./20090715/SOLDEVELINSTALL/html/soldevelinstall.html[Solaris Express Developer Edition Installation Guide: Laptop Installations]
 
 .Topics
+This book provides general guidance for installing the Solaris Express Developer Edition on a laptop computer.
 
 .Target Audience
+This book is intended for anyone interested in installing Solaris Express Developer Edition on laptop hardware.
 
 .Requirements
-
-This book provides general guidance for installing the Solaris Express Developer Edition on a laptop computer.
+To use this book, you should have basic UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 === Solaris Express Installation Guide: Network-Based Installations
@@ -486,14 +503,17 @@ This book provides general guidance for installing the Solaris Express Developer
 link:./20090715/SOLINSTALLNET/html/solinstallnet.html[Solaris Express Installation Guide: Network-Based Installations]
 
 .Topics
-
-.Target Audience
-
-.Requirements
-
 This book describes how to install the Solaris™ Operating System (Solaris OS) remotely over a local area network or a wide area network.
 
 This book does not include instructions about how to set up system hardware or other peripherals.
+
+.Target Audience
+This book is intended for system administrators who are responsible for installing the Solaris software.
+This book provides advanced Solaris installation information for enterprise system administrators who manage multiple Solaris machines in a networked environment.
+
+.Requirements
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 === Solaris Express Installation Guide: Solaris Flash Archives (Creation and Installation)
@@ -502,14 +522,17 @@ This book does not include instructions about how to set up system hardware or o
 link:./20090715/SOLINSTALLFLASH/html/solinstallflash.html[Solaris Express Installation Guide: Solaris Flash Archives (Creation and Installation)]
 
 .Topics
-
-.Target Audience
-
-.Requirements
-
 This book provides planning information and instructions for creating Solaris™ Flash archives and using Solaris Flash archives to install the Solaris Operating System (OS) on multiple systems.
 
 This book does not include instructions about how to set up system hardware or other peripherals.
+
+.Target Audience
+This book is intended for system administrators who are responsible for installing the Solaris OS.
+These procedures are advanced Solaris installation information for enterprise system administrators who manage multiple Solaris machines in a networked environment.
+
+.Requirements
+To use this book, you should have 2 or more years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 === Solaris Express Installation Guide: Solaris Live Upgrade and Upgrade Planning
@@ -518,15 +541,20 @@ This book does not include instructions about how to set up system hardware or o
 link:./20090715/SOLINSTALLUPG/html/solinstallupg.html[Solaris Express Installation Guide: Solaris Live Upgrade and Upgrade Planning]
 
 .Topics
-
-.Target Audience
-
-.Requirements
-
 This book describes how to install and upgrade the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
 
 This book does not include instructions about how to set up system hardware or other peripherals.
 
+.Target Audience
+This book is intended for system administrators responsible for installing the Solaris OS.
+This book provides both of the following types of information.
+
+* Advanced Solaris installation information for enterprise system administrators who manage multiple Solaris machines in a networked environment
+* Basic Solaris installation information for system administrators who perform infrequent Solaris upgrades
+
+.Requirements
+To use this book, you should have 2 or more years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 === Solaris Express Installation Guide: Custom JumpStart and Advanced Installations
@@ -535,15 +563,21 @@ This book does not include instructions about how to set up system hardware or o
 link:./20090715/SOLINSTALLADV/html/solinstalladv.html[Solaris Express Installation Guide: Custom JumpStart and Advanced Installations]
 
 .Topics
-
-.Target Audience
-
-.Requirements
-
 This book describes how to install and upgrade the Solaris™ Operating System (OS) on both networked and nonnetworked SPARC® and x86 architecture based systems.
 This book covers using the custom JumpStart installation method and the creation of RAID-1 volumes during installation.
 
 This book does not include instructions about how to set up system hardware or other peripherals.
+
+.Target Audience
+This book is intended for system administrators responsible for installing the Solaris OS.
+This book provides both of the following types of information.
+
+* Advanced Solaris installation information for enterprise system administrators who manage multiple Solaris machines in a networked environment
+* Basic Solaris installation information for system administrators who perform infrequent Solaris installations or upgrades
+
+.Requirements
+To use this book, you should have 2 or more years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 === Solaris Express Package List
@@ -552,13 +586,15 @@ This book does not include instructions about how to set up system hardware or o
 link:./20090715/INSTALLPKGLIST/html/installpkglist.html[Solaris Express Package List]
 
 .Topics
-
-.Target Audience
-
-.Requirements
-
 The Solaris Express Package List lists and describes the packages included in the Solaris™ Express Operating System (Solaris OS).
 The list includes information about the software groups that contain each package.
+
+.Target Audience
+This book is intended for system administrators responsible for installing the Solaris software.
+
+.Requirements
+To use this book, you should have 1-2 years of UNIX® system administration experience.
+Attending UNIX system administration training courses might be helpful.
 
 
 == Trusted Extensions Systems Administration
