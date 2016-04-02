@@ -1,12 +1,22 @@
+// vim: set syntax=asciidoc:
+
 // Start of document parameters
 
 :icons: font
-// :sectnums:
+:sectnums:
 :toc: left
 
 // End of document parameters
 
-= OpenSolaris PDL Licensed DOCS - 2009.07.15
+
+.TODO
+- Add a row to each table describing the relevancy of the book in relation to OpenIndiana Hipster.
+* See the SmartOS wiki for an example of this where they compare various OSOL commercial books to illumos.
+
+
+
+
+= OpenSolaris Redistributable Docs - 2009.07.15
 
 Consisting of 41 titles and originally published on July 15th, 2009, this collection of books compose the final docs release of the OpenSolaris project.
 For ease of use, the titles have been organized by subject matter and grouped according to their intended target audience.
