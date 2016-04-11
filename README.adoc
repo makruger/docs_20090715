@@ -14,8 +14,6 @@
 * See the SmartOS wiki for an example of this where they compare various OSOL commercial books to illumos.
 
 
-
-
 = OpenSolaris Redistributable Docs - 2009.07.15
 
 Consisting of 41 titles and originally published on July 15th, 2009, this collection of books compose the final docs release of the OpenSolaris project.
@@ -31,9 +29,10 @@ This documentation collection has been released under the https://www.openoffice
 When using these books, please bear in mind:
 
 - The OpenIndiana Project has republished these books primarily for their reference value.
-- Although vast portions of these books are still revelant, significant divergence has occured between OpenIndiana Hipster and OpenSolaris/Solaris Express.
-- Some of the books in this collection reference publications which were either never opensourced by Sun Microsystems or never released by the OpenSolaris Project.
+- Although vast portions of these books are still relevant, significant divergence has occurred between OpenIndiana Hipster and OpenSolaris/Solaris Express.
+- Some of the books in this collection reference publications which were either never open-sourced by Sun Microsystems or never released by the OpenSolaris Project.
   For example, the _OpenSolaris Developer's Reference Guide_ was never released as part of this collection.
+  However, the illumos project has published a similar title, which can be found here: https://illumos.org/books/dev/[illumos developer's guide]
 - There are lots of broken links to OpenSolaris.org and Sun Microsystems.
 - In some cases, it may be possible to follow broken links by using the https://archive.org/web/[Internet Archive Wayback Machine].
 ====
@@ -80,7 +79,7 @@ If you wish to participate in this effort, please indicate your interest in one 
 This guide is intended to help you install and set up the free binary distribution of the OpenSolaris software and make your initial experience with it a successful one.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone interested in installing and exploring the OpenSolaris operating system.
@@ -106,7 +105,7 @@ a| - User accounts and groups +
 - Managing software (packages and patches)
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems running the Solaris release.
@@ -116,6 +115,7 @@ a| - User accounts and groups +
 To use this book, you should have 1-2 years of UNIX® system administration experience.
 Attending UNIX system administration training courses might be helpful.
 |===
+
 
 == Intermediate & Advanced Systems Administration
 
@@ -136,7 +136,7 @@ Upon the initial installation of OpenSolaris onto a system, a boot environment i
 Use the beadm(1M) utility or the Package Manager to administer additional boot environments on your system.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems running the OpenSolaris operating system.
@@ -179,7 +179,7 @@ With the IPS publication tools, developers can perform the following:
 - Republish the contents of an existing package to a packaging repository
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for system administrators, end users, and developers.
@@ -202,7 +202,7 @@ a| - Solaris CIFS service, which enables you to configure a Solaris system to ma
 - Native identity mapping services, which enables you to map user and group identities between Solaris systems and Windows systems.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for system administrators and end users.
@@ -215,6 +215,7 @@ The Solaris CIFS client chapter also includes tasks to be performed by a system 
 | Requirements
 | Experience using the Solaris Operating System (OS) or another UNIX® version is recommended.
 |===
+
 
 === Solaris ZFS Administration Guide
 
@@ -236,7 +237,7 @@ a| - ZFS storage pool and file system creation and management
 - Data recovery
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This guide is intended for anyone who is interested in setting up and managing Solaris ZFS file systems.
@@ -244,6 +245,7 @@ a| - ZFS storage pool and file system creation and management
 | Requirements
 | Experience using the Solaris Operating System (OS) or another UNIX® version is recommended.
 |===
+
 
 === OpenSolaris Automated Installer Guide
 
@@ -258,7 +260,7 @@ a| - ZFS storage pool and file system creation and management
 The automated installer performs essentially “hands-free” network installations of the OpenSolaris OS.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems that are running the Solaris release.
@@ -266,6 +268,7 @@ The automated installer performs essentially “hands-free” network installati
 | Requirements
 | Experience using the Solaris Operating System (OS) or another UNIX® version is recommended.
 |===
+
 
 === System Administration Guide: Advanced Administration
 
@@ -282,7 +285,7 @@ a| - Terminals and modems
 - Troubleshooting Solaris software problems
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems that are running the Solaris release.
@@ -310,7 +313,7 @@ a| - Removable media
 - Backing up and restoring data
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems running the Solaris release.
@@ -320,6 +323,7 @@ a| - Removable media
 To use this book, you should have 1–2 years of UNIX® system administration experience.
 Attending UNIX system administration training courses might be helpful.
 |===
+
 
 === System Administration Guide: IP Services
 
@@ -341,7 +345,7 @@ a| - TCP/IP network administration
 - IPQoS
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering systems that run the Solaris OS release, which are configured in a network.
@@ -371,7 +375,7 @@ a| - Web cache servers
 - PPP
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems that run the Solaris 10 release.
@@ -397,7 +401,7 @@ a| - DNS
 - LDAP (including transitioning from NIS to LDAP and transitioning from NIS+ to LDAP)
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This manual is written for experienced system and network administrators.
@@ -421,7 +425,7 @@ a| - Solaris printing topics and tasks
 - Using services, tools, protocols, and technologies to set up and administer printing services and printers
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems that are running the Solaris release.
@@ -456,7 +460,7 @@ a| - Auditing
 - Solaris Secure Shell
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone who is responsible for administering one or more systems that run a Solaris Express Community Edition release.
@@ -465,6 +469,7 @@ a| - Auditing
 | To use this book, you should have more than two years of UNIX® system administration experience.
 Attending training courses in UNIX system administration might be helpful.
 |===
+
 
 === System Administration Guide: Virtualization Using the Solaris Operating System
 
@@ -480,7 +485,7 @@ a| - Resource management features, which enable you to control how applications 
 - Virtualization using Sun™ xVM hypervisor technology, which supports multiple operating system instances simultaneously
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone responsible for administering one or more systems that run the Solaris release.
@@ -489,6 +494,7 @@ a| - Resource management features, which enable you to control how applications 
 | This book assumes that you have already installed the operating system and set up any networking software that you plan to use.
 To use this book, you should have at least one to two years of UNIX® system administration experience.
 |===
+
 
 === Solaris Volume Manager Administration Guide
 
@@ -503,7 +509,7 @@ To use this book, you should have at least one to two years of UNIX® system adm
 Solaris Volume Manager enables you to create, modify, and use RAID-0 (concatenation and stripe) volumes, RAID-1 (mirror) volumes.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 a| System and storage administrators can use this book to identify:
@@ -532,7 +538,7 @@ Attending UNIX system administration training courses might be helpful.
 This manual does not provide tunable parameter information about the CDE, GNOME, or Java™ environments.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for experienced Solaris system administrators who might need to change kernel tunable parameters in certain situations.
@@ -558,7 +564,7 @@ Attending training courses in UNIX system administration might be helpful.
 | Solaris Express Developer Edition What's New summarizes all features in the most current Software Express release.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book provides introductory descriptions of the new Software Express features for users, developers, and system administrators.
@@ -582,7 +588,7 @@ Attending UNIX system administration training courses might be helpful.
 Also included are end-of-software support statements for the Solaris™ Operating System (Solaris OS).
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | These notes are for users and system administrators who install and use the Solaris Operating System.
@@ -608,7 +614,7 @@ This book also provides overviews of several technologies that relate to install
 This book does not include instructions about how to set up system hardware or other peripherals.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 a| This book is intended for system administrators responsible for installing the Solaris OS.
@@ -638,7 +644,7 @@ Attending UNIX system administration training courses might be helpful.
 This book does not include instructions about how to set up system hardware or other peripherals.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for system administrators who are responsible for installing the Solaris OS.
@@ -662,7 +668,7 @@ Attending UNIX system administration training courses might be helpful.
 | This book provides general guidance for installing the Solaris Express Developer Edition on a laptop computer.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for anyone interested in installing Solaris Express Developer Edition on laptop hardware.
@@ -687,7 +693,7 @@ Attending UNIX system administration training courses might be helpful.
 This book does not include instructions about how to set up system hardware or other peripherals.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for system administrators who are responsible for installing the Solaris software.
@@ -713,7 +719,7 @@ Attending UNIX system administration training courses might be helpful.
 This book does not include instructions about how to set up system hardware or other peripherals.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for system administrators who are responsible for installing the Solaris OS.
@@ -723,6 +729,7 @@ These procedures are advanced Solaris installation information for enterprise sy
 | To use this book, you should have 2 or more years of UNIX® system administration experience.
 Attending UNIX system administration training courses might be helpful.
 |===
+
 
 === Solaris Express Installation Guide: Solaris Live Upgrade and Upgrade Planning
 
@@ -738,7 +745,7 @@ Attending UNIX system administration training courses might be helpful.
 This book does not include instructions about how to set up system hardware or other peripherals.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 a| This book is intended for system administrators responsible for installing the Solaris OS.
@@ -768,7 +775,7 @@ This book covers using the custom JumpStart installation method and the creation
 This book does not include instructions about how to set up system hardware or other peripherals.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 a| This book is intended for system administrators responsible for installing the Solaris OS.
@@ -796,7 +803,7 @@ Attending UNIX system administration training courses might be helpful.
 The list includes information about the software groups that contain each package.
 
 | Relevancy to OpenIndiana Hipster
-| < placeholder for content>
+| To be determined
 
 | Target Audience
 | This book is intended for system administrators responsible for installing the Solaris software.
@@ -812,62 +819,79 @@ Attending UNIX system administration training courses might be helpful.
 
 === Solaris Trusted Extensions Installation and Configuration
 
-.Document Link
-link:./20090715/TRSOLINSTALL/html/trsolinstall.html[Solaris Trusted Extensions Installation and Configuration]
+[cols="1,4"]
+|===
 
-.Topics
+|Document Link
+|link:./20090715/TRSOLINSTALL/html/trsolinstall.html[Solaris Trusted Extensions Installation and Configuration]
 
-*Obsolete.*
+|Topics
+|*Obsolete*
 
 Describes how to plan for, install, and configure Solaris Trusted Extensions for the Solaris 10 11/06 and Solaris 10 8/07 releases of Trusted Extensions.
 
 The Solaris Trusted Extensions Installation and Configuration guide provides procedures for configuring Solaris™ Trusted Extensions on the Solaris Operating System.
 This guide also describes preparing the Solaris system to support a secure installation of Solaris Trusted Extensions.
 
-.Target Audience
-Administrators, developers
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+|Target Audience
+|Administrators, developers
 
 This book is for knowledgeable system administrators and security administrators who are installing Trusted Extensions software.
 The level of trust that is required by your site security policy, and your level of expertise, determines who can perform the configuration tasks.
 
-.Requirements
-Successfully configuring Trusted Extensions on a system in a way that is consistent with site security requires understanding the security features of Trusted Extensions and your site security policy. 
+|Requirements
+|Successfully configuring Trusted Extensions on a system in a way that is consistent with site security requires understanding the security features of Trusted Extensions and your site security policy. 
 Before you install the Solaris Trusted Extensions packages, read _Chapter 1, Security Planning for Trusted Extensions_ for information about how to ensure site security when configuring the software.
+|===
+
 
 === Solaris Trusted Extensions User's Guide
 
-.Document Link
-link:./20090715/TRSSUG/html/trssug.html[Solaris Trusted Extensions User's Guide]
+[cols="1,4"]
+|===
 
-.Topics
-Describes the basic features of Solaris Trusted Extensions.
+| Document Link
+| link:./20090715/TRSSUG/html/trssug.html[Solaris Trusted Extensions User's Guide]
+
+| Topics
+| Describes the basic features of Solaris Trusted Extensions.
 This book contains a glossary.
 
 The Solaris Trusted Extensions User's Guide is a guide to working in the Solaris™ Operating System (Solaris OS) with Solaris Trusted Extensions installed.
 
-.Target Audience
-This book is for all users of Trusted Extensions.
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+
+| Target Audience
+| This book is for all users of Trusted Extensions.
 
 End users, administrators, developers
 
-.Requirements
-
-As a prerequisite, you must be familiar with the Solaris OS and one of the following desktops:
+| Requirements
+a| As a prerequisite, you must be familiar with the Solaris OS and one of the following desktops:
 
 - Common Desktop Environment (CDE)
 - The open source GNOME desktop
 - Sun Java™ Desktop System
 
 You must also be familiar with the security policy of your organization.
+|===
 
 
 === Solaris Trusted Extensions Administrator's Procedures
 
-.Document Link
-link:./20090715/TRSOLADMPROC/html/trsoladmproc.html[Solaris Trusted Extensions Administrator's Procedures]
+[cols="1,4"]
+|===
 
-.Topics
-For this release, Part I describes how to prepare for, enable, and initially configure Trusted Extensions.
+| Document Link
+| link:./20090715/TRSOLADMPROC/html/trsoladmproc.html[Solaris Trusted Extensions Administrator's Procedures]
+
+| Topics
+| For this release, Part I describes how to prepare for, enable, and initially configure Trusted Extensions.
 Part I replaces Solaris Trusted Extensions Installation and Configuration.
 
 Part II describes how to administer a Trusted Extensions system.
@@ -875,54 +899,69 @@ This book contains a glossary.
 
 System installation, configuration, and administration that is specific to Solaris Trusted Extensions
 
-.Target Audience
-Administrators, developers
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+
+| Target Audience
+| Administrators, developers
 
 This book is for knowledgeable system administrators and security administrators who are configuring and administering Trusted Extensions software.
 The level of trust that is required by your site security policy, and your level of expertise, determines who can perform the configuration tasks.
 
-.Reguirements
-Administrators should be familiar with Solaris administration.
+| Requirements
+a| Administrators should be familiar with Solaris administration.
 In addition, administrators should understand the following:
 
 - The security features of Trusted Extensions and your site security policy
 - Basic concepts and procedures for using a host that is configured with Trusted Extensions, as described in the Solaris Trusted Extensions User’s Guide
 - How administrative tasks are divided among roles at your site
+|===
 
 
 === Solaris Trusted Extensions Label Administration
 
-.Document Link
-link:./20090715/TRSOLLBLADMIN/html/trsollbladmin.html[Solaris Trusted Extensions Label Administration]
+[cols="1,4"]
+|===
 
-.Topics
-Provides information about how to specify label components in the label encodings file.
+| Document Link
+| link:./20090715/TRSOLLBLADMIN/html/trsollbladmin.html[Solaris Trusted Extensions Label Administration]
+
+| Topics
+| Provides information about how to specify label components in the label encodings file.
 
 Labels, clearances, and handling instructions are used to protect information on a system that is configured with Solaris Trusted Extensions software.
 The components of labels, clearances, and handling instructions are specified in the `label_encodings` file.
 This guide provides background for creating or modifying the file.
 The guide provides examples, and helps you to create and install a `label_encodings` file that is appropriate for your site.
 
-.Target Audience
-Administrators
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+| Target Audience
+| Administrators
 
 This book is for security administrators.
 Security administrators are responsible for defining the organization's labels.
 Some security administrators are also responsible for implementing the labels.
 This book is for definers and implementers.
 
-.Requirements
-The security administrator who implements the labels should be familiar with Solaris administration.
+| Requirements
+| The security administrator who implements the labels should be familiar with Solaris administration.
 The necessary level of knowledge can be acquired through training and documentation. 
+|===
+
 
 === Solaris Trusted Extensions Transition Guide
 
-.Document Link
-link:./20090715/TRSOLTRANS/html/trsoltrans.html[Solaris Trusted Extensions Transition Guide]
+[cols="1,4"]
+|===
 
-.Topics
+| Document Link
+| link:./20090715/TRSOLTRANS/html/trsoltrans.html[Solaris Trusted Extensions Transition Guide]
 
-The Solaris Trusted Extensions Transition Guide describes the differences between the Solaris Trusted Extensions release and the following releases:
+| Topics
+| The Solaris Trusted Extensions Transition Guide describes the differences between the Solaris Trusted Extensions release and the following releases:
 
 The Trusted Solaris™ 8 releases
 
@@ -930,38 +969,50 @@ The Solaris™ 10 Operating System release
 
 The differences include labels, a modified desktop, a modified windowing system, and modified administration tools.
 
-.Target Audience
+| Relevancy to OpenIndiana Hipster
+| To be determined
 
-All users should find the book useful.
+| Target Audience
+| All users should find the book useful.
 The Solaris Trusted Extensions Transition Guide is designed for users who are familiar with Trusted Solaris releases and with the Solaris OS.
 This book enables these users to more easily use systems that are configured with Solaris Trusted Extensions.
 
-.Requirements
+| Requirements
+| To be determined
+|===
 
-< place holder >
 
 == Development
 
 
 === Solaris Dynamic Tracing Guide
 
-.Document Link
-link:./20090715/DYNMCTRCGGD/html/dynmctrcggd.html[Solaris Dynamic Tracing Guide]
+[cols="1,4"]
+|===
 
-.Topics
-DTrace is a comprehensive dynamic tracing framework for the Solaris™ Operating System.
+| Document Link
+| link:./20090715/DYNMCTRCGGD/html/dynmctrcggd.html[Solaris Dynamic Tracing Guide]
+
+| Topics
+| DTrace is a comprehensive dynamic tracing framework for the Solaris™ Operating System.
 DTrace provides a powerful infrastructure to permit administrators, developers, and service personnel to concisely answer arbitrary questions about the behavior of the operating system and user programs.
+
 The Solaris Dynamic Tracing Guide describes how to use DTrace to observe, debug, and tune system behavior.
 This book also includes a complete reference for bundled DTrace observability tools and the D programming language.
 
-.Target Audience
-If you have ever wanted to understand the behavior of your system, DTrace is the tool for you.
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+| Target Audience
+a| If you have ever wanted to understand the behavior of your system, DTrace is the tool for you.
 DTrace is a comprehensive dynamic tracing facility that is built into Solaris.
 The DTrace facility can be used to examine the behavior of user programs.
 The DTrace facility can also be used to examine the behavior of the operating system.
+
 DTrace can be used by system administrators or application developers, and is suitable for use with live production systems.
 DTrace will allow you to explore your system to understand how it works, track down performance problems across many layers of software, or locate the cause of aberrant behavior.
-As you'll see, DTrace lets you create your own custom programs to dynamically instrument the system and provide immediate, concise answers to arbitrary questions you can formulate using the DTrace D programming language.
+
+As you'll see, DTrace lets you create your own custom programs to dynamically instrument the system and provide immediate, concise answers to arbitrary questions you can formulate using the DTrace `D` programming language.
 
 DTrace allows all Solaris users to:
 
@@ -975,24 +1026,37 @@ DTrace allows Solaris developers and administrators to:
 - Implement custom scripts that use the DTrace facility
 - Implement layered tools that use DTrace to retrieve trace data
 
-.Requirements
-Basic familiarity with a programming language such as C or a scripting language such as `awk(1)` or `perl(1)` will help you learn DTrace and the D programming language faster, but you need not be an expert in any of these areas.
+| Requirements
+a| Basic familiarity with a programming language such as `C` or a scripting language such as `awk(1)` or `perl(1)` will help you learn DTrace and the `D` programming language faster, but you need not be an expert in any of these areas.
 If you have never written a program or script before in any language, Related Information provides references to other documents you might find useful.
+|===
+
+[NOTE]
+This title is available in a more recent version.
+Updated by the illumos project, you can find the revised version here:
+http://dtrace.org/guide/preface.html[Dynamic Tracing Guide]
 
 
 === Solaris Modular Debugger Guide
 
-.Document Link
-link:./20090715/MODDEBUG/html/moddebug.html[Solaris Modular Debugger Guide]
+[cols="1,4"]
+|===
 
-.Topics
-The Modular Debugger (MDB) is a highly extensible, general purpose debugging tool for the Solaris™ Operating System (Solaris OS).
+| Document Link
+| link:./20090715/MODDEBUG/html/moddebug.html[Solaris Modular Debugger Guide]
+
+| Topics
+| The Modular Debugger (MDB) is a highly extensible, general purpose debugging tool for the Solaris™ Operating System (Solaris OS).
 The Solaris Modular Debugger Guide describes how to use MDB to debug complex software systems, with a particular emphasis on the facilities available for debugging the Solaris kernel and associated device drivers and modules.
 It also includes a complete reference for and discussion of the MDB language syntax, debugger features, and MDB Module Programming API.
 
-.Target Audience
-If you were a detective and were investigating at the scene of a crime, you might interview the witnesses and ask them to describe what happened and who they saw.
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+| Target Audience
+| If you were a detective and were investigating at the scene of a crime, you might interview the witnesses and ask them to describe what happened and who they saw.
 However, if there were no witnesses or these descriptions proved insufficient, you might consider collecting fingerprints and forensic evidence that could be examined for DNA to help solve the case.
+
 Often, software program failures divide into analogous categories: problems that can be solved with source-level debugging tools, and problems that require low-level debugging facilities, examination of core files, and knowledge of assembly language to diagnose and correct.
 MDB facilitates analysis of this second class of problems.
 
@@ -1000,36 +1064,50 @@ MDB is most useful when you are programming a complex low-level software system 
 The MDB debugging framework allows you to construct your own custom analysis tools to aid in the diagnosis of these low-level problems.
 MDB also provides a powerful set of built-in commands that enable you to analyze the state of your program at the assembly language level.
 
-.Requirements
-Familarity with assembly language programming and debugging
+| Requirements
+| Familiarity with assembly language programming and debugging
+|===
+
+[NOTE]
+This title is available in a more recent version.
+Updated by the illumos project, you can find the revised version here:
+https://illumos.org/books/mdb/preface.html[Modular Debugger Guide]
+
 
 === Device Driver Tutorial
 
-.Document Link
-link:./20090715/DRIVERTUT/html/drivertut.html[Device Driver Tutorial]
+[cols="1,4"]
+|===
 
-.Topics
-This Device Driver Tutorial is a hands-on guide that shows you how to develop a simple device driver for the Solaris™ Operating System (Solaris OS).
+| Document Link
+| link:./20090715/DRIVERTUT/html/drivertut.html[Device Driver Tutorial]
+
+| Topics
+| This Device Driver Tutorial is a hands-on guide that shows you how to develop a simple device driver for the Solaris™ Operating System (Solaris OS).
 Device Driver Tutorial also explains how device drivers work in the Solaris OS.
 This book is a companion to _Writing Device Drivers_.
+
 _Writing Device Drivers_ is a thorough reference document that discusses many types of devices and drivers.
 Device Driver Tutorial examines complete drivers but does not provide a comprehensive treatment of all driver types.
 Device Driver Tutorial often points to Writing Device Drivers and other books for further information.
 
-.Target Audience
-You should read this tutorial if you need to develop, install, and configure device drivers for the Solaris OS.
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+| Target Audience
+| You should read this tutorial if you need to develop, install, and configure device drivers for the Solaris OS.
 You also should read this book if you need to maintain existing drivers or add new functionality to existing Solaris OS drivers.
 Information about the kernel provided in this book also will help you troubleshoot any problems you might encounter installing or configuring Solaris systems.
 
-.Requirements
-To write device drivers for the Solaris OS, you should have the following background:
+| Requirements
+a| To write device drivers for the Solaris OS, you should have the following background:
 
 - Be a confident C programmer
 - Have experience with data structures, especially with linked lists
 - Understand bit operations
 - Understand indirect function calls
 - Understand caching
-- Understand multithreading (see the Multithreaded Programming Guide)
+- Understand multi-threading (see the Multi-threaded Programming Guide)
 - Be familiar with a UNIX® shell
 - Understand the basics of UNIX system and I/O architecture
 
@@ -1039,111 +1117,177 @@ Get a detailed specification for the device you want to drive.
 Experience with Solaris OS compilers, debuggers, and other tools will be very helpful to you.
 You also need to understand where the file system fits with the kernel and the application layer.
 These topics are discussed in this tutorial.
+|===
 
 
 === Writing Device Drivers
 
-.Document Link
-link:./20090715/DRIVER/html/driver.html[Writing Device Drivers]
+[cols="1,4"]
+|===
 
-.Topics
-Writing Device Drivers provides information on developing drivers for character-oriented devices, block-oriented devices, network devices, SCSI target and HBA devices, and USB devices for the Solaris™ Operating System (Solaris OS).
-This book discusses how to develop multithreaded reentrant device drivers for all architectures that conform to the Solaris OS DDI/DKI (Device Driver Interface, Driver-Kernel Interface). A common driver programming approach is described that enables drivers to be written without concern for platform-specific issues such as endianness and data ordering.
+| Document Link
+| link:./20090715/DRIVER/html/driver.html[Writing Device Drivers]
 
-Additional topics include hardening Solaris drivers; power management; driver autoconfiguration; programmed I/O; Direct Memory Access (DMA); device context management; compilation, installation, and testing drivers; debugging drivers; and porting Solaris drivers to a 64-bit environment.
+| Topics
+a| Writing Device Drivers provides information on developing drivers for:
 
-.Target Audience
-This book is written for UNIX® programmers who are familiar with UNIX device drivers.
+- character-oriented devices
+- block-oriented devices
+- network devices
+- SCSI target and HBA devices
+- USB devices
+
+This book discusses how to develop multi-threaded reentrant device drivers for all architectures that conform to the Solaris OS DDI/DKI (Device Driver Interface, Driver-Kernel Interface).
+A common driver programming approach is described that enables drivers to be written without concern for platform-specific issues such as endianness and data ordering.
+
+Additional topics include:
+
+- hardening Solaris drivers
+- power management
+- driver auto-configuration
+- programmed I/O; Direct Memory Access (DMA)
+- device context management
+- compilation
+- installation
+- and testing drivers
+- debugging drivers
+- porting Solaris drivers to a 64-bit environment
+
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+| Target Audience
+| This book is written for UNIX® programmers who are familiar with UNIX device drivers.
 Overview information is provided, but the book is not intended to serve as a general tutorial on device drivers.
 
-.Requirements
+| Requirements
+| To be determined
+|===
 
-< Place Holder >
+[NOTE]
+This title is available in a more recent version.
+Updated by the illumos project, you can find the revised version here:
+https://illumos.org/books/wdd/preface.html[Writing Device Drivers]
+
 
 === Application Packaging Developer's Guide
 
-.Document Link
-link:./20090715/PACKINSTALL/html/packinstall.html[Application Packaging Developer's Guide]
+[cols="1,4"]
+|===
 
-.Topics
-The Application Packaging Developer’s Guide provides step-by-step instructions and relevant background information for designing, building, and verifying packages.
+| Document Link
+| link:./20090715/PACKINSTALL/html/packinstall.html[Application Packaging Developer's Guide]
+
+| Topics
+| The Application Packaging Developers Guide provides step-by-step instructions and relevant background information for designing, building, and verifying packages.
 This guide also includes advanced techniques that you might find helpful during the package creation process.
 
-.Target Audience
-This book is intended for application developers whose responsibilities include designing and building packages.
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+| Target Audience
+| This book is intended for application developers whose responsibilities include designing and building packages.
 Though much of the book is directed towards novice package developers, it also contains information useful to more experienced package developers.
 
-.Requirements
-
-< Place Holder >
+| Requirements
+| To be determined
+|===
 
 
 === OpenSolaris Distribution Constructor Guide
 
-.Document Link
-link:./20090715/DistroConst/html/distroconst.html[OpenSolaris Distribution Constructor Guide]
+[cols="1,4"]
+|===
 
-.Topics
-The distribution constructor is a tool that application developers can use to build their own custom OpenSolaris™ image which they can then distribute to their contacts and customers.
+| Document Link
+| link:./20090715/DistroConst/html/distroconst.html[OpenSolaris Distribution Constructor Guide]
 
-.Target Audience
+| Topics
+| The distribution constructor is a tool that application developers can use to build their own custom OpenSolaris™ image which they can then distribute to their contacts and customers.
 
-< Place Holder >
+| Relevancy to OpenIndiana Hipster
+| To be determined
 
-.Requirements
+| Target Audience
+| To be determined
 
-< Place Holder >
+| Requirements
+| To be determined
+|===
+
 
 === Memory and Thread Placement Optimization Developer's Guide
 
-.Document Link
-link:./20090715/MTPODG/html/mtpodg.html[Memory and Thread Placement Optimization Developer's Guide]
+[cols="1,4"]
+|===
 
-.Topics
-The Memory and Thread Placement Optimization Developer's Guide provides information on locality groups and the technologies that are available to optimize the use of computing resources in the Solaris operating system.
+| Document Link
+| link:./20090715/MTPODG/html/mtpodg.html[Memory and Thread Placement Optimization Developer's Guide]
 
-.Target Audience
-This book is intended for use by developers who are writing applications in an environment with multiple CPUs and a non-uniform memory architecture.
+| Topics
+| The Memory and Thread Placement Optimization Developer's Guide provides information on locality groups and the technologies that are available to optimize the use of computing resources in the Solaris operating system.
+
+| Relevancy to OpenIndiana Hipster
+| To be determined
+
+| Target Audience
+| This book is intended for use by developers who are writing applications in an environment with multiple CPUs and a non-uniform memory architecture.
 The programming interfaces and tools that are described in this book give the developer control over the system's behavior and resource allocation.
 
-.Requirements
+| Requirements
+| To be determined
+|===
 
-< Place Holder >
-
+[NOTE]
+This title is available in a more recent version.
+Updated by the illumos project, you can find the revised version here: 
+https://illumos.org/books/lgrps/preface.html[Memory and Thread Placement Optimization Developer's Guide]
 
 
 === Solaris Containers: Resource Management and Solaris Zones Developer's Guide
 
-.Document Link
-link:./20090715/RSCMGRDEVGD/html/rscmgrdevgd.html[Solaris Containers: Resource Management and Solaris Zones Developer's Guide]
+[cols="1,4"]
+|===
 
-.Topics
-The Solaris Containers: Resource Management and Solaris Zones Developer's Guide describes how to write applications that partition and manage system resources and discusses which APIs to use.
+| Document Link
+| link:./20090715/RSCMGRDEVGD/html/rscmgrdevgd.html[Solaris Containers: Resource Management and Solaris Zones Developer's Guide]
+
+| Topics
+| The Solaris Containers: Resource Management and Solaris Zones Developer's Guide describes how to write applications that partition and manage system resources and discusses which APIs to use.
 This book provides programming examples and a discussion of programming issues to consider when writing an application.
 
-.Target Audience
-This book is for application developers and ISVs who write applications that control or monitor the Solaris Operating System resources.
+| Relevancy to OpenIndiana Hipster
+| To be determined
 
-.Requirements
+| Target Audience
+| This book is for application developers and ISVs who write applications that control or monitor the Solaris Operating System resources.
 
-< Place Holder >
-
+| Requirements
+| To be determined
+|===
 
 
 === Solaris Trusted Extensions Developer's Guide
 
-.Document Link
-link:./20090715/TRSOLDEV/html/trsoldev.html[Solaris Trusted Extensions Developer's Guide]
+[cols="1,4"]
+|===
 
-.Topics
-Describes how to develop applications with Solaris Trusted Extensions.
+| Document Link
+| link:./20090715/TRSOLDEV/html/trsoldev.html[Solaris Trusted Extensions Developer's Guide]
+
+| Topics
+| Describes how to develop applications with Solaris Trusted Extensions.
 
 The Solaris Trusted Extensions Developer's Guide describes how to use the application programming interfaces (APIs) to write new trusted applications for systems that are configured with the Solaris™ Trusted Extensions software.
 
-.Target Audience
-Developers, administrators
+| Relevancy to OpenIndiana Hipster
+| To be determined
 
-.Requirements
-Readers must be familiar with UNIX® programming and understand security policy concepts.
+| Target Audience
+| Developers, administrators
+
+| Requirements
+| Readers must be familiar with UNIX® programming and understand security policy concepts.
+|===
 
 
